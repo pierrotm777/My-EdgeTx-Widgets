@@ -204,7 +204,7 @@ Screen Angle and Slider for azimuthal
 
 # Change labels
 You can to adapt labels of 4 instances.  
-When the widget is started for the first time, a Lua file named after the model, TOTO.lua, is created in the widget's folder.  
+When the widget is first launched, a Lua file named with the model name, TOTO.lua, is created in the widget folder. 
 This file defines the labels for each button or slider, as well as the button type (permanent or momentary).  
 
 ```
