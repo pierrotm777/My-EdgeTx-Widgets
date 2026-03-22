@@ -202,6 +202,30 @@ Screen sixteen buttons and one slider
 Screen Angle and Slider for azimuthal  
 ![](ANGLE+PROP.png)
 
+# Change labels
+You can to adapt labels of 4 instances.  
+When the widget is started for the first time, a Lua file named after the model, TOTO.lua, is created in the widget's folder.  
+This file defines the labels for each button or slider, as well as the button type (permanent or momentary).  
+
+```
+{ label="Feux mât",  type="toggle" },
+{ label="Lumière Cabine",  type="toggle" },
+{ label="Lumière intérieure",  type="toggle" },
+{ label="Radar",  type="toggle" },
+{ label="Sirène",  type="momentary" },
+{ label="6",  type="toggle" },
+{ label="7",  type="toggle" },
+{ label="8",  type="toggle" },
+{ label="9",  type="toggle" },
+{ label="10", type="toggle" },
+{ label="11", type="toggle" },
+{ label="12", type="toggle" },
+{ label="13", type="toggle" },
+{ label="14", type="toggle" },
+{ label="15", type="toggle" },
+{ label="16", type="toggle" },
+```
+
 # Hardware Tested
 
 - Radiomaster **TX16S**
