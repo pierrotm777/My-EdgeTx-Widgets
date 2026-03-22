@@ -222,7 +222,7 @@ Screen Angle and Slider for azimuthal
    
 1. MultiSwitch_Sw8 V2
    * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MutltiSwitch_Sw8_V2)  
-   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MutltiSwitch_Sw8_V2/MutltiSwitch_Sw8_V2.jpg)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw8_V2/MultiSwitch_Sw8_V2.jpg)  
    
 1. The MS8-Xany card used as an Impulse Sequencer
    * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw8_PulseSeq)  
