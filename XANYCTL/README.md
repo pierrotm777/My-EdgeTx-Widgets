@@ -181,7 +181,7 @@ Available widget options:
 ---
 
 ## 4. The sesult
-Screen two Xany control
+Screen two Xany control  
 ![](TWO_XANYCTL.png)
 
 Screen four Xany control  
