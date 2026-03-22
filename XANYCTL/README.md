@@ -208,22 +208,27 @@ When the widget is first launched, a Lua file named with the model name, TOTO.lu
 This file defines the labels for each button or slider, as well as the button type (permanent or momentary).  
 
 ```
-{ label="Feux mât",  type="toggle" },
-{ label="Lumière Cabine",  type="toggle" },
-{ label="Lumière intérieure",  type="toggle" },
-{ label="Radar",  type="toggle" },
-{ label="Sirène",  type="momentary" },
-{ label="6",  type="toggle" },
-{ label="7",  type="toggle" },
-{ label="8",  type="toggle" },
-{ label="9",  type="toggle" },
-{ label="10", type="toggle" },
-{ label="11", type="toggle" },
-{ label="12", type="toggle" },
-{ label="13", type="toggle" },
-{ label="14", type="toggle" },
-{ label="15", type="toggle" },
-{ label="16", type="toggle" },
+[1] = {
+buttons = {
+  { label="Feux mât",  type="toggle" },
+  { label="Lumière Cabine",  type="toggle" },
+  { label="Lumière intérieure",  type="toggle" },
+  { label="Radar",  type="toggle" },
+  { label="Sirène",  type="momentary" },
+  { label="6",  type="toggle" },
+  { label="7",  type="toggle" },
+  { label="8",  type="toggle" },
+  { label="9",  type="toggle" },
+  { label="10", type="toggle" },
+  { label="11", type="toggle" },
+  { label="12", type="toggle" },
+  { label="13", type="toggle" },
+  { label="14", type="toggle" },
+  { label="15", type="toggle" },
+  { label="16", type="toggle" },
+},
+prop = { label = "MOT 1" },
+},
 ```
 
 # Hardware Tested
