@@ -211,6 +211,52 @@ Screen Angle and Slider for azimuthal
 
 ---
 
+# Compatibilities
+1. MultiSwitch_Sw16-ProMicro
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw16-ProMicro)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw16-ProMicro/MultiSwitch_Sw16_ProMicro_3D.jpg)  
+   
+1. MultiSwitch_Sw8 (deprecated)
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw8)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw8/D%C3%A9codeur%20MS8_X-Any_3D.jpg)  
+   
+1. MultiSwitch_Sw8 V2
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MutltiSwitch_Sw8_V2)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MutltiSwitch_Sw8_V2/MutltiSwitch_Sw8_V2.jpg)  
+   
+1. The MS8-Xany card used as an Impulse Sequencer
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw8_PulseSeq)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw8/D%C3%A9codeur%20MS8_X-Any_3D.jpg)  
+   
+1. Xany2Msx
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Xany2Msx)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Xany2Msx/Xany2Msx_3D.jpg)  
+
+1. Capteur_Hall_I2C
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Capteur_Hall_I2C)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Capteur_Hall_I2C/Sensor_Board_3D.jpg)  
+   
+1. Capteur_Hall_I2C Mini
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Capteur_Hall_I2C_Mini)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Capteur_Hall_I2C_Mini/Sensor_Board_3D-Top_Bottom.jpg)  
+   
+1. Encoder A1335 I2C
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20A1335_Encoder)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20A1335_Encoder/A1335_Encoder_Top.jpg)  
+
+   
+1. Xany2Sounds
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Xany2Sounds)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Xany2Sounds/Xany2Sounds_3D.jpg)  
+   
+1. Sound&SmokeModule
+   * [V1.1](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Sound&SmokeModule)  
+      ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Sound%26SmokeModule/S%26SM1.png)  
+	  
+1. Futaba FP-S148/S3003 replacement
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/LUCAS_FPS148_FS3003)  
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/LUCAS_FPS148_FS3003/LUCAS_FPS148_FS3003_Top.jpg)  
+
 # Future Work
 
 Planned improvements:

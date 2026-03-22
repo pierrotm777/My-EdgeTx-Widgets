@@ -1,0 +1,95 @@
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20Shield/Mega_2560%20core%20mini_full_2.2_PM/Mega_2560%20core%20mini_full_2.2_3D.jpg)
+1. MultiSwitch_Sw16-ProMicro
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw16-ProMicro)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw16-ProMicro/MultiSwitch_Sw16_ProMicro_3D.jpg)
+1. MultiSwitch_Sw8 (deprecated)
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw8)
+
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw8/D%C3%A9codeur%20MS8_X-Any_3D.jpg)   
+1. MultiSwitch_Sw8 V2
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MutltiSwitch_Sw8_V2)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MutltiSwitch_Sw8_V2/MutltiSwitch_Sw8_V2.jpg)  
+1. The MS8-Xany card used as an Impulse Sequencer
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw8_PulseSeq)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw8/D%C3%A9codeur%20MS8_X-Any_3D.jpg)
+1. Xany2Msx
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Xany2Msx)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Xany2Msx/Xany2Msx_3D.jpg)
+1. MultiSwitch_MosFet
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_MosFet)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_MosFet/MultiSwitch_MosFet_Top3D.jpg)
+1. Capteur_Hall_I2C
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Capteur_Hall_I2C)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Capteur_Hall_I2C/Sensor_Board_3D.jpg)
+   
+1. Capteur_Hall_I2C Mini
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Capteur_Hall_I2C_Mini)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Capteur_Hall_I2C_Mini/Sensor_Board_3D-Top_Bottom.jpg)
+   
+1. Encoder A1335 I2C
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20A1335_Encoder)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20A1335_Encoder/A1335_Encoder_Top.jpg)
+   
+1. Alimentation for Mpx 3010
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20Mpx%20Alimentation)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20Mpx%20Alimentation/MPX_Alimentation_Top.jpg)
+   
+1. LM386 amplifier
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20LM386%20amplifier)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20LM386%20amplifier/LM386Amplifier_Top.jpg)
+   
+1. Shield for JQ6500-28P/PAM8302
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20JQ6500-28P_PAM8302A)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20JQ6500-28P_PAM8302A/JQ6500-28P_PAM8302A_3DTop.jpg)
+   
+1. PAM8302 Amplifier
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20PAM8302A)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20PAM8302A/PAM8302_3D.jpg)
+   
+1. Long Range hardwares solutions  
+	<table cellspacing=0>
+	  <tr>
+		<td align=center width=200><a href="https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Long_Range/MultiProtocol&Lora"><img src="https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Long_Range/MultiProtocol%26Lora/RFM95W_TxModule.jpg" border="0" name="submit" title="MultiProtocol&Lora" alt="MultiProtocol&Lora"/></a><br><b>MultiProtocol&Lora</b></td>
+		<td align=center width=200><a href="https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Long_Range/ExpressLrs"><img src="https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Long_Range/ExpressLrs/HappyModel_combo_kit.jpg" border="0" name="submit" title="ExpressLrs" alt="ExpressLrs"/></a><br><b>ExpressLrs</b></td>
+		<td align=center width=200><a href="https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Long_Range/Crossfire_TBS"><img src="https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Long_Range/Crossfire_TBS/TBS_TX_V2_combo_kit.jpg" border="0" name="submit" title="Crossfire_TBS" alt="Crossfire_TBS"/></a><br><b>Crossfire_TBS</b></td>
+	  </tr>
+	</table>
+ 
+1. Xany2Sounds
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Xany2Sounds)
+   
+   ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Xany2Sounds/Xany2Sounds_3D.jpg)
+   
+   
+1. Sound&SmokeModule
+   * [V1.1](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Sound&SmokeModule)
+   
+      ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Sound%26SmokeModule/S%26SM1.png)  
+	  
+1. Futaba FP-S148/S3003 replacement
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/LUCAS_FPS148_FS3003)
+   
+      ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/LUCAS_FPS148_FS3003/LUCAS_FPS148_FS3003_Top.jpg)  
+
+1. Interface Buttons2Xany usable with Sound&Smoke
+   * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Buttons2Xany)
+
+	  ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/Xany2Msx/Xany2Msx_3D.jpg)  
+
+1. Adaptator for P16 on Shield board (LCD // connector)  
+   * [v1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PCB%20Shield/Adaptateur_Connecteur_20pts_shield)  
+   
+	  ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/PCB%20Shield/Adaptateur_Connecteur_20pts_shield/3D_view.png)  
+	  
