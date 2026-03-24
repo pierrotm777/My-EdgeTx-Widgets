@@ -284,8 +284,8 @@ Receivers tested:
   Orange Rx  
   BetaFPV CRSF + CRSF/PWM Converter  
   
-3.Full configuration details according to the receivers  
-![](Receivers_Compatibilities.png)  
+3. Full configuration details according to the receivers  
+  ![](Receivers_Compatibilities.png)  
 
 ## Which Xany/RCUL compatible projects can be used
 1. MultiSwitch_Sw16-ProMicro
