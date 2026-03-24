@@ -175,6 +175,7 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 2. Open **SRIPTS PERSOS** tab.  
 ![](SCRIPTS_PERSOS.png)  
 3. Open first free LUAx, edit it and select **xanytx** as script.  
+You can also define a name for each widget (**RCUL** by example).  
 ![](XANYTX.png)  
 4. Define a new screen for your widget, and select a full-page screen or one split into two or four parts.  
 5. Select an empty slot and choose the widget **XANYCTL**.  
@@ -183,6 +184,10 @@ Up to 4 widgets can be used.
 Each widget will be defined by its **#ID** number and its **CH** (channel) on which it will operate.  
 example with 3 instances:  
 ![](THREE_INSTANCES.png)  
+6. Open the Mixer tab and add the channel (**CH**) used by the widget.  
+You will notice that the channel is moving rapidly. This is normal.  
+**In the OUTPUTS tab, absolutely keep the +-100% and never reverse the channel**.  
+![](CH_RCUL.png)
 
 ## 3. Configure Options
 
@@ -256,6 +261,33 @@ prop = { label = "Radar" },
 ---
 
 # Compatibilities
+
+## Which receivers are usable
+In theory, this widget is compatible with a multitude of receivers.  
+The most suitable are the **Frsky X8R** receivers, for example.  
+Receivers tested:  
+1. **2.4gHz**  
+  FrSky X8R  
+  FrSky RX-F802  
+  FlySky FS-IA10B  
+  Flysky FS-IA6B  
+  FlySky FS-RX2A  
+  Graupner GR-12L  
+  Graupner  GR-24 Pro +3xG +3A + 3M + Vario  
+  Hitec Optima 7  
+  Spektrum ART6610T  
+  Multiplex RX-9-DR SRXL16 (bad compatibility)  
+  Corona R14FA  
+  Corona CR8D  
+  Jumper R8  
+2. **868Mhz**  
+  Orange Rx  
+  BetaFPV CRSF + CRSF/PWM Converter  
+  
+3.Full configuration details according to the receivers  
+![](Receivers_Compatibilities.png)  
+
+## Which Xany/RCUL compatible projects can be used
 1. MultiSwitch_Sw16-ProMicro
    * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw16-ProMicro)  
    ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw16-ProMicro/MultiSwitch_Sw16_ProMicro_3D.jpg)  
