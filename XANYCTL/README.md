@@ -147,46 +147,60 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 # Installation
 
 ## 1. Copy Files
+1. Copy the WIDGETS/XANYCTL/ folder to the SD card: 
+   /WIDGETS/XANYCTL/main.luac  
+   /WIDGETS/XANYCTL/buttons.luac  
+   /WIDGETS/XANYCTL/TEMPLATE.lua  
+   
+2. Copy the SCRIPTS/TOOLS/ folder to the SD card: 
+   SCRIPTS/TOOLS/xanytx_common.luac  
+   SCRIPTS/TOOLS/xanytx.lua  
+   SCRIPTS/TOOLS/xanytx1.lua  
+   SCRIPTS/TOOLS/xanytx2.lua  
+   SCRIPTS/TOOLS/xanytx3.lua  
+   SCRIPTS/TOOLS/xanytx4.lua  
 
-Copy the folders to your **EdgeTX SD card**.
+3. Verify that LibGUI is present:  
+   /WIDGETS/LibGUI/libgui.lua  (ou libgui.luac)  
 
-```
-SDCARD/WIDGETS/XANYCTL/
-SDCARD/SCRIPTS/MIXES/
-```
+4. On first startup, a file <ModelName>.lua is created:  
+   Exemple : MODEL011 :  
+   /WIDGETS/XANYCTL/MODEL011.lua  
+   You can edit the labels for buttons and sliders.  
+   Each button can be set to **toggle** or **momentary**.  
+   You can also edit the title name for each widget.  
 
-
-## 2. Add Widget
-
-1. Open your model
-2. Go to **Display → Widgets**
-3. Select an empty slot
-4. Choose **XANYCTL**
-
+## 2. Add the widget to your model
+1. Open the **MODEL** page.  
+2. Open **SRIPTS PERSOS** tab
+![](SCRIPTS_PERSOS.png)  
+3. Open first free LUAx, edit it and select **xanytx** as script.  
+![](XANYTX.png)  
+4. Define a new screen for your widget, and select a full-page screen or one split into two or four parts.  
+5. Select an empty slot and choose the widget **XANYCTL**.  
+![](WIDGET_SEL.png)  
+Up to 4 widgets can be used.  
+Each widget will be defined by its **#ID** number and its **CH** (channel) on which it will operate.  
+example with 3 instances:  
+![](THREE_INSTANCES.png)  
 
 ## 3. Configure Options
 
-Available widget options:
+Available widget's options:
 
 * ID
 * MODE
 * CH
 * Repeat
-* OffCol
-* OnCol
-* Shadow
+* OffCol (color Off mode)  
+* OnCol (color On mode)  
+* Shadow  
 * Synchro
 * Language
 
 ---
 
-## 4. The sesult
-Screen two Xany control  
-![](TWO_XANYCTL.png)
-
-Screen four Xany control  
-![](FOUR_XANYCTL.png)
-
+## 4. Several sesults
 Screen height buttons  
 ![](SW8.png)
 
@@ -209,13 +223,14 @@ This file defines the labels for each button or slider, as well as the button ty
 
 ```
 [1] = {
+title = "Lumières",
 buttons = {
-  { label="Feux mât",  type="toggle" },
-  { label="Lumière Cabine",  type="toggle" },
-  { label="Lumière intérieure",  type="toggle" },
+  { label="Lumières mât",  type="toggle" },
+  { label="Lumière cabine",  type="toggle" },
+  { label="Lumière intérieur+",  type="toggle" },
+  { label="Lumière extérieurs",  type="toggle" },
   { label="Radar",  type="toggle" },
   { label="Sirène",  type="momentary" },
-  { label="6",  type="toggle" },
   { label="7",  type="toggle" },
   { label="8",  type="toggle" },
   { label="9",  type="toggle" },
@@ -227,7 +242,7 @@ buttons = {
   { label="15", type="toggle" },
   { label="16", type="toggle" },
 },
-prop = { label = "MOT 1" },
+prop = { label = "Radar" },
 },
 ```
 
