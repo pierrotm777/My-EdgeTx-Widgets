@@ -172,7 +172,7 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 
 ## 2. Add the widget to your model
 1. Open the **MODEL** page.  
-2. Open **SRIPTS PERSOS** tab
+2. Open **SRIPTS PERSOS** tab.  
 ![](SCRIPTS_PERSOS.png)  
 3. Open first free LUAx, edit it and select **xanytx** as script.  
 ![](XANYTX.png)  
