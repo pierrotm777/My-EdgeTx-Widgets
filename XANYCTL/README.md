@@ -287,7 +287,7 @@ Receivers tested:
 3. Full configuration details according to the receivers  
   ![](Receivers_Compatibilities.png)  
 
-## Which Xany/RCUL compatible projects can be used
+## Which Xany/RCUL compatibles projects can be used
 1. MultiSwitch_Sw16-ProMicro
    * [V1.0](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_Sw16-ProMicro)  
    ![here](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw16-ProMicro/MultiSwitch_Sw16_ProMicro_3D.jpg)  
