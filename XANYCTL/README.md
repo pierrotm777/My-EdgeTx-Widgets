@@ -273,6 +273,10 @@ This file defines the labels for each button or slider, as well as the button ty
     prop = { label = "VOLUME", logo="sound.png" },
   },
 ```
+From version 1.4 onwards, it is possible to use the 'Settings' screen to edit the model file.  
+![](SETTINGS.png)
+![](SETTINGS_LOGO.png)
+![](SETTINGS_KEYS.png)
 
 # Hardware Tested
 
