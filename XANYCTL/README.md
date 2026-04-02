@@ -189,29 +189,6 @@ You will notice that the channel is moving rapidly. This is normal.
 **In the OUTPUTS tab, absolutely keep the +-100% and never reverse the channel**.  
 ![](CH_RCUL.png)
 
-**Very important, if you are using azimuth motors**
-We must separate the Flight Modes (FM) in GV7 (PROP) and GV8 (ANGLE) for a simple reason:
-👉 Each pod must have its own independent values.  
-![](GV7.png)  
-![](GV8.png)  
-
-If all FM share the same GVars:
-Changing the slider on pod 1 also changes pods 2, 3, and 4.  
-This creates a false permanent sync.  
-
-Separating by FM:  
-FM0 → pod 1  
-FM1 → pod 2  
-FM2 → pod 3  
-FM3 → pod 4  
-
-👉 Each pod retains its own value.  
-👉 Synchronization becomes voluntary (via the mask), and not involuntary.  
-
-In summary:  
-Without FM separation → everything moves together  
-With separation → independent control + controlled synchronization 👍  
-
 ## 3. Configure Options
 
 Available widget's options:
