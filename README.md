@@ -6,6 +6,9 @@
 ## EKMFASwitch
 [EKMFASwitch](https://github.com/pierrotm777/My-EdgeTx-Widgets/tree/main/EKMFASwitch)  
 
+## EspNow
+[EKMFASwitch](https://github.com/pierrotm777/My-EdgeTx-Widgets/tree/main/EspNow)  
+
 ## mahRe3
 [mahRe3](https://github.com/pierrotm777/My-EdgeTx-Widgets/tree/main/mahRe3)  
 
