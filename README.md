@@ -17,3 +17,6 @@
 
 ## XANYCTL
 [XANYCTL](https://github.com/pierrotm777/My-EdgeTx-Widgets/tree/main/XANYCTL)  
+
+## XANYLVGL
+[XANYCTL](https://github.com/pierrotm777/My-EdgeTx-Widgets/tree/main/XANYLVGL)  

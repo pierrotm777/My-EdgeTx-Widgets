@@ -1,5 +1,5 @@
 
-# XANYCTL Widget for EdgeTX (Radiomaster TX16S)
+# XANYLVGL Widget for EdgeTX (Radiomaster TX16S)
 This widget uses the RCUL/XANY protocol created by Rc-Navy.  
 The RCUL project of Rc-Navy is described [here](http://p.loussouarn.free.fr/arduino/exemple/BURC/BURC.html)  
 
@@ -7,7 +7,7 @@ Many thanks to him !
 
 ## Overview
 
-**XANYCTL** is a touchscreen widget for **EdgeTX** designed to control a **Multiplex XAny encoder** using Lua.  
+**XANYLVGL** is a touchscreen widget for **EdgeTX** designed to control a **Multiplex XAny encoder** using Lua.  
 It provides a graphical interface (buttons + slider) that allows the pilot to control **up to 16 logical switches** and an optional **PROP analog parameter**.
 
 The widget is intended to work with a companion **Mix script** that converts the widget state into a valid **XAny pulse stream** sent on a radio channel.
@@ -18,7 +18,7 @@ TX16S → EdgeTX widget → Lua Mix script → RC channel → receiver → XAny 
 
 The project is composed of two main parts:
 
-* **Widget UI (WIDGETS/XANYCTL)** – graphical interface and state management
+* **Widget UI (WIDGETS/XANYLVGL)** – graphical interface and state management
 * **Mix script (SCRIPTS/MIXES/xanytx.lua)** – XAny protocol generation
 
 
@@ -29,7 +29,7 @@ The project is composed of two main parts:
 ```
 SDCARD/
  ├─ WIDGETS/
- │   └─ XANYCTL/
+ │   └─ XANYLVGL/
  │        ├─ main.lua
  │        ├─ buttons.lua
  │        ├─ settings.lua
@@ -148,11 +148,11 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 # Installation
 
 ## 1. Copy Files
-1. Copy the WIDGETS/XANYCTL/ folder to the SD card: 
-   /WIDGETS/XANYCTL/main.lua  
-   /WIDGETS/XANYCTL/buttons.lua  
-   /WIDGETS/XANYCTL/settings.lua  
-   /WIDGETS/XANYCTL/TEMPLATE.lua  
+1. Copy the WIDGETS/XANYLVGL/ folder to the SD card: 
+   /WIDGETS/XANYLVGL/main.lua  
+   /WIDGETS/XANYLVGL/buttons.lua  
+   /WIDGETS/XANYLVGL/settings.lua  
+   /WIDGETS/XANYLVGL/TEMPLATE.lua  
    
 2. Copy the SCRIPTS/TOOLS/ folder to the SD card: 
    SCRIPTS/TOOLS/xanytx_common.luac  
@@ -167,7 +167,7 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 
 4. On first startup, a file <ModelName>.lua is created:  
    Exemple : MODEL011 :  
-   /WIDGETS/XANYCTL/MODEL011.lua  
+   /WIDGETS/XANYLVGL/MODEL011.lua  
    You can edit the labels for buttons and sliders.  
    Each button can be set to **toggle** or **momentary**.  
    You can also edit the title name for each widget.  
@@ -180,7 +180,7 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 You can also define a name for each widget (**RCUL** by example).  
 ![](XANYTX.png)  
 4. Define a new screen for your widget, and select a full-page screen or one split into two or four parts.  
-5. Select an empty slot and choose the widget **XANYCTL**.  
+5. Select an empty slot and choose the widget **XANYLVGL**.  
 ![](WIDGET_SEL.png)  
 Up to 4 widgets can be used.  
 Each widget will be defined by its **#ID** number and its **CH** (channel) on which it will operate.  
