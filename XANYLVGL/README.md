@@ -185,7 +185,7 @@ You can also define a name for each widget (**RCUL** by example).
 ![](WIDGET_SEL.png)  
 Up to 4 widgets can be used.  
 Each widget will be defined by its **#ID** number and its **CH** (channel) on which it will operate.  
-![](SETTINGS.png) 
+![](SETTINGS.png)  
 example with 3 instances:  
 ![](THREE_INSTANCES.png)  
 6. Open the Mixer tab and add the channel (**CH**) used by the widget.  
