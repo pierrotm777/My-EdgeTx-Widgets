@@ -180,16 +180,23 @@ The slider controls the **PROP value (0-255)** and displays the percentage.
 You can also define a name for each widget (**RCUL** by example).  
 ![](XANYTX.png)  
 4. Define a new screen for your widget, and select a full-page screen or one split into two or four parts.  
+![](FOUR_SPLIT.png)  
 5. Select an empty slot and choose the widget **XANYLVGL**.  
 ![](WIDGET_SEL.png)  
 Up to 4 widgets can be used.  
 Each widget will be defined by its **#ID** number and its **CH** (channel) on which it will operate.  
+![](SETTINGS.png) 
 example with 3 instances:  
 ![](THREE_INSTANCES.png)  
 6. Open the Mixer tab and add the channel (**CH**) used by the widget.  
 You will notice that the channel is moving rapidly. This is normal.  
 **In the OUTPUTS tab, absolutely keep the +-100% and never reverse the channel**.  
-![](CH_RCUL.png)
+![](CH_RCUL.png)  
+![](CH_RCUL2.png)  
+7. Result.  
+![](FULLSCREEN.png)  
+![](RESULT.png)   
+
 
 ## 3. Configure Options
 
